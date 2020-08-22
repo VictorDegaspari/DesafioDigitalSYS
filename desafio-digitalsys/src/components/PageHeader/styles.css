@@ -1,0 +1,93 @@
+/*PageHeader*/
+* {
+  margin: 0;
+}
+
+.page-header {
+  font: 700 1rem Archivo;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  object-position: center;
+}
+
+.page-header .top-bar-container {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.6rem 0;
+}
+.espacamento-icons {
+  margin-right: 1rem;
+}
+.espacamento-icons .sino{
+margin-right: 1rem;
+margin-left: auto;
+}
+.logo {
+  margin-left: 1rem;
+}
+
+.circle {
+  background-color: rgb(240, 240, 240);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.circle p {
+  text-align: center;
+  margin-top: 10px;
+  font: 700 17px Archivo;
+}
+
+.page-header-baixo a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #ffff;
+}
+.page-header-baixo :link {
+  margin-top: 1.25rem;
+  font: 300 15px Archivo;
+  
+}
+.page-header-baixo :link span {
+  font: 700 16px Archivo;
+
+  
+}
+.page-header-baixo  {
+  background-color: rgb(43, 108, 176);
+  height: 56px;
+  display: flex;
+  position: relative;
+  width: auto;
+  margin-right: 0;
+  
+}
+
+
+
+.espacamento-logos .circle,
+.nome {
+  margin-left: 1rem;
+}
+.espacamento-logos,
+.nome {
+  align-items: center;
+
+  display: flex;
+}
+
+.nome p {
+  font: 200 12px Archivo;
+  color: rgb(177, 177, 177);
+}
+
+.nome p span {
+  font: 500 13px Archivo !important;
+  color: rgb(83, 83, 83);
+}
+
+/*PageHeader*/

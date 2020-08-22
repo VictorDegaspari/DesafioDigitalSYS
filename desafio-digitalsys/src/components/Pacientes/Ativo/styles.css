@@ -1,0 +1,116 @@
+.paciente-container {
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.6rem;
+  height: auto;
+  display: flex;
+}
+
+.chamados p {
+  font: 700 15px Archivo;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: rgb(44, 82, 130);
+}
+.car {
+  margin-top: 5px;
+}
+.chamados {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-left: 0.77rem;
+  margin-right: 0.77rem;
+  height: 36px;
+}
+
+
+button {
+  width: 324px;
+  height: 36px;
+  border-radius: 3px;
+  align-items: center;
+  display: block;
+}
+
+.buttons {
+  border-top: 1px solid #e6e6f0;
+  margin-left: 0.75rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.chat,
+.ficha {
+  background-color: rgb(43, 108, 176);
+  color: #ffff;
+}
+.pessoa {
+  background-color: #ffff;
+  border: 1px solid #e6e6f0;
+  color: rgb(43, 108, 176);
+}
+
+.encaminhar {
+  background-color: rgb(44, 82, 130);
+  color: #ffff;
+}
+
+.buttons .grid-icons {
+  display: inline-grid;
+  grid-template-columns: auto 11fr 1fr;
+  padding: 6px;
+  margin-right: 0.8rem;
+
+  align-content: center;
+  justify-items: space-between;
+}
+
+.seta-click {
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.seta-click:hover {
+  transform: rotate(+90deg);
+  transition: 0.1s;
+}
+.grid-icons {
+  height: 26px;
+}
+
+.buttons-hidden button {
+  margin-top: 0;
+  margin-bottom: 0.5rem !important;
+
+  margin-right: 0.6rem;
+}
+
+.check {
+  margin-left: -5px;
+}
+
+.grid-icons p {
+  font: 250 15px Archivo;
+  margin-left: 5px;
+  margin-top: 4px;
+  color: red;
+}
+.animeDown {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: animeDown 0.3s forwards;
+}
+
+@keyframes animeDown {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}

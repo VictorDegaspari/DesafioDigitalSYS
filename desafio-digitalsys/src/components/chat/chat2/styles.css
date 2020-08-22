@@ -1,0 +1,35 @@
+
+.car {
+  margin-top: 5px;
+}
+
+.close {
+  cursor: pointer;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
+
+
+#chamado2 {
+  
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 10rem;
+    align-content: center;
+    justify-content: center;
+    font: 500 16px Archivo;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: auto;
+    margin-right: 1rem;
+  
+}
+.chat2 p{
+  color: rgb(44, 82, 130);
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
